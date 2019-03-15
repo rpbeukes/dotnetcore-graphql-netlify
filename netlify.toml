@@ -1,4 +1,3 @@
 [build]
   publish = "src/bin/Release"
   command = "npm run-script build && npm run-script start"
-
