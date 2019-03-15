@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "This is me mucking about creating a aspdotnetcore GraphQL server running on Netlify (Linxu)",
   "scripts": {
-    "build": "dotnet build -c Release src/Dotnetcore-graphql-netlify.csproj",
-    "test": "dotnet test src/Dotnetcore-graphql-netlify.test.csproj",
-    "start": "dotnet src/bin/Release/netcoreapp2.1/Dotnetcore-graphql-netlify.dll"
+          "build": "dotnet build -c Release src/Dotnetcore-graphql-netlify.csproj",
+    "build-linux": "dotnet publish -c release -r ubuntu.16.04-x64",
+           "test": "dotnet test src/Dotnetcore-graphql-netlify.test.csproj",
+          "start": "dotnet src/bin/Release/netcoreapp2.1/Dotnetcore-graphql-netlify.dll"
   },
   "devDependencies": {
     "dotnet-sdk-2.1": "*"
