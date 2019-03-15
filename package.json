@@ -1,0 +1,16 @@
+{
+    "name": "dotnetcore-graphql-netlify",
+    "version": "1.33.7",
+    "description": "This is me mucking about creating a aspdotnetcore GraphQL server running on Netlify (Linxu)",
+    "scripts": {
+      "build": "dotnet build src/contoso.csproj",
+      "test": "dotnet test src/contoso.test.csproj",
+      "start": "dotnet bin/netcoreapp2.0/contoso.dll"
+    },
+    "devDependencies": {
+      "dotnet-sdk-2.1": "*"
+    },
+    "dependencies": {
+      "dotnet-2.1": "*"
+    }
+  }
